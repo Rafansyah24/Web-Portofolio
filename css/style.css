@@ -6,17 +6,17 @@ body {
 
 .container {
     width: 100%;
-    height: 710px;
+    height: 550px;
     /* background-color: aqua; */
     background-image: url("../img/bg.png");
     background-size: cover;
-}
+} 
 
-/* NAV-BAR */
+/* Nav Section */
 .navbar {
     /* width: 100%; */
     height: 60px;
-    box-shadow: 2px 2px 12px rgb(0, 0, 0, 0.2);
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
     display: flex;
     align-items: center;
     padding-left: 9%;
@@ -24,7 +24,7 @@ body {
 }
 
 .navbar p {
-    font-size: 30px;
+    font-size: 25px;
     font-family: 'Lobster Two', cursive;
 }
 
@@ -45,6 +45,7 @@ body {
     color: #dfe6e9;
 }
 
+/* Hero Section */
 .text-hero {
     position: absolute;
     left: 9%;
@@ -53,7 +54,7 @@ body {
 }
 
 .text-hero p:first-child {
-    font-size: 25px;
+    font-size: 18px;
     font-weight: bold;
     line-height: 50px;
 }
@@ -66,7 +67,7 @@ body {
 
 .text-hero p:nth-child(3) {
     font-size: 30px;
-    font-weight: bold;
+    font-weight: 100;
     line-height: normal;
 }
 
@@ -84,7 +85,6 @@ body {
     height: 30px;
     border-radius: 10px;
     background-color: #2f3640;
-    border: 1px  solid black;
     font-size: 10px;
     color: white;
     border: none;
@@ -95,4 +95,56 @@ body {
     left: 50%;
     top: 100px;
     height: 450px;
+}
+
+.about {
+    width: 80%;
+    background-color: white;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+    margin: -3% auto 20px;
+    position: relative;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    box-sizing: border-box;
+    padding-right: 200px;
+}
+
+.about img {
+    height: 250px;
+    margin: 30px;
+}
+
+.text-about p:first-child {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 10px;
+}
+
+.text-about p:nth-child(2),
+.text-about p:nth-child(3) {
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.btn-about-here {
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: transparent;
+    border: 1px  solid black;
+    margin-right: 10px;
+    font-size: 10px;
+}
+
+.btn-about-download {
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: #2f3640;
+    font-size: 10px;
+    color: white;
+    border: none;
 }
