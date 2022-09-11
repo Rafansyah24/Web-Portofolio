@@ -97,6 +97,7 @@ body {
     height: 450px;
 }
 
+/* About Section */
 .about {
     width: 80%;
     background-color: white;
@@ -149,6 +150,7 @@ body {
     border: none;
 }
 
+/* Skills Section */
 .text-skills{
     margin-left: 12%;
     margin-top: 50px;
@@ -272,4 +274,44 @@ body {
     height: 30px;
     border: 1px  solid black;
     font-size: 11px;
+}
+
+/* Footer Section */
+.footer {
+    width: 100%;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer p:first-child {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.footer p:nth-child(2) {
+    width: 700px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 100;
+}
+
+.list-icon {
+    display: flex;
+    width: 250px;
+    justify-content: space-evenly;
+}
+
+.list-icon div {
+    width: 50px;
+    height: 50px;
+    background-color: #dfe6e9;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
 }
